@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Here, we will build our first NON-BLOCKING ASYNCHRONOUS node js application. And by NON-BLOCKING , we mean that our application is going to continue to be able to do other things while it is waiting for some long running IO process to complete and thats one of the things that makes node js so great fast and efficient First , we will explore asynchronous programming with a basic example.Then, we will take what we learn here about asynchronous programming and use it to build out our weather application. To actually get that app built , we need to interact with real time weather API and that requires us to make asynchronous HTTP requests. In a synchronous programming model , one line runs after the next regardless of how long each line takes to execute. In synchronous model , we needed to wait those number of time or seconds as provided there before the program would continue  in Asynchronous non blocking model , node can continue to do other things like run everything down below, while it is waiting for those number of seconds to pass. With non blocking model ,  we are able to do a lot of things at the same time.For say , i can wait for 60 database requests to come back while still issuing more.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
